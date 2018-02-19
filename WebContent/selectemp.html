@@ -1,0 +1,19 @@
+<span class="w3-text-red w3-large" data-ng-show="isNotFound"><i
+	class="fa fa-refresh"></i> Loading...</span>
+<div class="w3-row">
+	<a data-ui-sref="employees.list">Back</a>
+</div>
+<div class="w3-row" data-ng-show="!isNotFound">
+	<div class="w3-row">
+		<div class="w3-col l2">Id :</div>
+		<div class="w3-col l2">{{employee.id}}</div>
+	</div>
+	<div class="w3-row">
+		<div class="w3-col l2">Name :</div>
+		<div class="w3-col l2">{{employee.name}}</div>
+	</div>
+	<div class="w3-row">
+		<div class="w3-col l2">Address :</div>
+		<div class="w3-col l2">{{employee.address}}</div>
+	</div>
+</div>

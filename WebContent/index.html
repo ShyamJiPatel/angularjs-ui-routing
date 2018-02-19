@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UI-Router | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mylib/w3.css">
+<link rel="stylesheet" href="resource/css/style.css">
+ <link rel="icon" type="image/png" href="resource/icon/browser.png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="mylib/angular.js"></script>
+    <script src="mylib/angular-ui-router.min.js"></script>
+    <script src="resource/js/app.js"></script>
+
+<body data-ng-app="myApp">
+	<div class="w3-container w3-blue">
+		<div class="w3-row">
+			<div class="w3-col l3">
+				<h6><a data-ui-sref="home" class="w3-text-white">Home</a></h6>
+			</div>
+		<div class="w3-col l6 w3-center">
+			<h3>
+				<b>UI-Router AngularJS Demo</b>
+			</h3>
+		</div>
+		<div class="w3-col l3"></div>
+			
+		</div>
+	</div>
+	<div class="w3-row">
+		<div class="w3-col m4 l2 w3-margin">
+			<div class="w3-card-4 w3-padding" style="height: 500px;">
+				<ul class="w3-ul">
+					<li><a data-ui-sref="employees.list">Employees</a></li>
+					
+					<li><a href="#/employees">Employees</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="w3-col m6 l6 w3-margin-right w3-margin-top">
+			<div data-ui-view class="w3-card-4 w3-padding" style="height: 500px;">	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

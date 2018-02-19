@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Shyam Ji",
+		"address": "Orai UP"
+	},
+	{
+		"id": 2,
+		"name": "Sumit Mehta",
+		"address": "LDA Lucknow UP"
+	},
+	{
+		"id": 3,
+		"name": "Abhsihek Gupta",
+		"address": "Kanpur UP"
+	},
+	{
+		"id": 4,
+		"name": "Vaibhav Triptahi",
+		"address": "Lucknow UP"
+	},
+	{
+		"id": 5,
+		"name": "Sachin Sharma",
+		"address": "Kanpur UP"
+	},
+	{
+		"id": 6,
+		"name": "Bahubali",
+		"address": "India"
+	}
+]

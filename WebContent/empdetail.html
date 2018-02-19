@@ -1,0 +1,21 @@
+
+<span class="w3-text-red w3-large" data-ng-show="isLoding"><i
+	class="fa fa-refresh"></i> Loading...</span>
+<div class="w3-row" data-ng-show="!isLoding && employees!=undefined">
+	<table class="w3-table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Address</th>
+			</tr>
+		</thead>
+		<tr data-ng-repeat="employee in employees track by $index">
+			<td><a href="#/employees/{{employee.id}}">{{employee.id}}</a></td>
+			<td>{{employee.name}}</td>
+			<td>{{employee.address}}</td>
+		</tr>
+		<tbody>
+		</tbody>
+	</table>
+</div>
